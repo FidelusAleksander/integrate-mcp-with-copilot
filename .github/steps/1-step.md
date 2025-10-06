@@ -100,7 +100,7 @@ Before we dive into MCP, let's start up our development environment and refamili
 
 1. Inside your codespace, open the **Copilot Chat** panel and verify **Agent** mode is selected.
 
-   <img width="200" alt="image" src="https://github.com/user-attachments/assets/201e08ab-14a0-48bf-824e-ba4f8f43f8ab" />
+   <img width="400" alt="image" src="https://github.com/user-attachments/assets/e578c984-4a38-4548-9b32-1527b6e1447f" />
 
 
 1. Inside your codespace, navigate to the `.vscode` folder, and create a new file named `mcp.json`. Paste the following contents:
