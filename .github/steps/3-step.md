@@ -52,7 +52,7 @@ Now, let's use our MCP server's tools and Copilot to do a bit of triage and get 
    > #codebase Let's do the first one. Follow these steps:
    > 1. Checkout a new local branch for making our changes.
    > 2. Make the changes then confirm with me that they look correct.
-   > 3. Push the changes and start a pull request.
+   > 3. Push the changes and create a pull request.
    > ```
 
    > ⚠️ **Warning:** Always verify the the actions Copilot is asking to perform, especially with the external abilities provided by an MCP server, which probably have no undo option.
