@@ -2,11 +2,11 @@
 
 Great work! You just connected your first MCP server to GitHub Copilot! 🎉
 
-🚨 It seems the teachers keep submitting bugs and requests! So many good ideas! We should probably look into them and start researching for other upgrades.
+🚨 The teachers have been busy opening new issues in your repository with bugs and feature requests! Go [take a look](https://github.com/{{full_repo_name}}/issues) - so many good ideas!
 
-Fortunately, with an MCP server for GitHub, triaging these and even doing some research to get ahead should be pretty quick! 🕵️
+We should probably look into them and start researching for other upgrades. Fortunately, with an MCP server for GitHub, triaging these and even doing some research to get ahead should be pretty quick! 🕵️
 
-### How do we use an MCP server's tools?
+### 📖 Theory: How do we use an MCP server's tools?
 
 Good news! The same way you would normally interact with Copilot, natural language. Just keep in mind the available capabilities and any permission restrictions from your token.
 
@@ -36,7 +36,7 @@ Isn't that cool?! Now let's do it! 👩‍🚀
    > Search for any other repositories for organizing extra curricular activities
    > ```
 
-1. When an MCP tool is required, Copilot will ask for permission. **Verify the request** and modify if necessary, then click **Continue**.
+1. When an MCP tool is required, Copilot may ask for permission. **Verify the request** and modify if necessary, then click **Continue**.
 
    <img width="250" alt="request permission dialog" src="https://github.com/user-attachments/assets/229473af-c206-47a4-b356-943b9c9bd946" />
 

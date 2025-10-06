@@ -10,7 +10,7 @@ Our fellow teachers have lots of ideas but we can't seem to keep up with all the
 
 Let's get started!
 
-### What is Model Context Protocol (MCP)?
+### 📖 Theory: What is Model Context Protocol (MCP)?
 
 [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) is often referred to as "USB-C for AI" - a universal connector that allows GitHub Copilot (and other AI tools) to seamlessly interact with other services.
 
