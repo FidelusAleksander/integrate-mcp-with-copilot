@@ -2,11 +2,18 @@
 
 <img width="150" align="right" alt="copilot logo" src="https://github.com/user-attachments/assets/4d22496d-850b-4785-aafe-11cba03cd5f2" />
 
-In the [Getting Started with GitHub Copilot](https://github.com/skills/getting-started-with-github-copilot) exercise, we were introduced to the Mergington High School's extracurricular activities website, which allowed students to sign up for events.
+You're working on Mergington High School's extracurricular activities website, which allows students to sign up for events and activities.
 
-And now we have a problem... but.. it's a good one! More teachers are asking to use it! 🎉
+<details>
+<summary>📸 Show screenshot</summary><br/>
 
-Our fellow teachers have lots of ideas but we can't seem to keep up with all the requests! 😮 To fix this issue, lets give GitHub Copilot an upgrade by enabling Model Context Protocol (MCP). To be more specific, we will add the GitHub MCP server, which will enable a combined workflow of issue management and website upgrades. 🧑‍🚀
+![Screenshot of Mergington High School WebApp](https://github.com/user-attachments/assets/5cb88d53-d948-457e-9f4b-403d697fa93a)
+
+</details>
+
+More teachers are starting to use the website! 🎉 The challenge? They have great ideas for improvements, but we need to manage all these feature requests efficiently and possibly research how similar open source projects have implemented such features!
+
+That's where Model Context Protocol (MCP) comes in! By adding the GitHub MCP server, we'll extend Copilot's capabilities beyond code generation to include repository research and issue management. 🧑‍🚀
 
 Let's get started!
 
@@ -79,22 +86,22 @@ Before we dive into MCP, let's start up our development environment and refamili
 
    </details>
 
+1. (Optional) Take a moment to explore the website and codebase to familiarize yourself with the extracurricular activities application. This is the same website featured in the [Getting Started with GitHub Copilot](https://github.com/skills/getting-started-with-github-copilot) exercise.
+
+   <details>
+   <summary>💡 Exploring the application</summary><br/>
+
+   - Browse the website interface to see how students can sign up for activities
+   - Look at the code structure in VS Code to understand how the application works
+
+   </details>
+
 ### :keyboard: Activity: Add the GitHub MCP server
 
 1. Inside your codespace, open the **Copilot Chat** panel and verify **Agent** mode is selected.
 
    <img width="200" alt="image" src="https://github.com/user-attachments/assets/201e08ab-14a0-48bf-824e-ba4f8f43f8ab" />
 
-   <details>
-   <summary>Agent mode missing?</summary><br/>
-
-   - Verify VS Code is at least `v1.99.0`.
-   - Verify the Copilot extension is at least `v1.296.0`.
-   - Check if Agent mode is enabled in your [user or workspace settings](https://code.visualstudio.com/docs/configure/settings#_workspace-settings).
-
-      <img width="300" alt="image" src="https://github.com/user-attachments/assets/407a79dd-707e-471b-b56b-1938aece4ad8" />
-
-   </details>
 
 1. Inside your codespace, navigate to the `.vscode` folder, and create a new file named `mcp.json`. Paste the following contents:
 
