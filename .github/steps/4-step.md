@@ -11,7 +11,7 @@ While AI assistants like GitHub Copilot can dramatically improve productivity, i
 
 1. Open the new pull request created by Copilot in a new tab.
 
-   [![Examine the pull request](https://img.shields.io/badge/-Open%20Pull%20Request-1f883d?logo=github)]({{{pull_request_url}}})
+   [![Examine the pull request](https://img.shields.io/badge/-Open%20Pull%20Request-1f883d?logo=github)]({{pull_request_url}})
 
    > ✨ **Bonus:** If your Copilot subscription provides it, you can also use a specialised version of Copilot to [review the changes](https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review?tool=webui).
 
