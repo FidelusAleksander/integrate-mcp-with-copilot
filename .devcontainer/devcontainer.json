@@ -8,7 +8,9 @@
     "ghcr.io/devcontainers/features/docker-in-docker:2": {
       "moby": false
     },
-    "ghcr.io/devcontainers/features/github-cli:1": {}
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/schlich/devcontainer-features/playwright:0": {}
+
   },
   "forwardPorts": [8000],
   "postCreateCommand": "pip install -r requirements.txt",
